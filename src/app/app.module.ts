@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AppComponent } from './app.component';
+
+ 
  
 @NgModule({
   declarations:[
@@ -11,7 +13,7 @@ import { AppComponent } from './app.component';
   ],
   imports:[
     BrowserModule,
-    AngularFireModule.initializeApp(environment)
+    AngularFireModule.initializeApp(envir)
   ],
   providers:[],
   bootstrap:[AppComponent]
