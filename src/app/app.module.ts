@@ -5,7 +5,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AppComponent } from './app.component';
 
- 
+import {environment} from 'src/environments/environment'; 
  
 @NgModule({
   declarations:[
@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
   ],
   imports:[
     BrowserModule,
-    AngularFireModule.initializeApp(envir)
+    AngularFireModule.initializeApp(environment)
   ],
   providers:[],
   bootstrap:[AppComponent]
