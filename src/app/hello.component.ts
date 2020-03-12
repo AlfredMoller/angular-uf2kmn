@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+/*import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'hello',
@@ -7,4 +7,4 @@ import { Component, Input } from '@angular/core';
 })
 export class HelloComponent  {
   @Input() name: string;
-}
+}*/
